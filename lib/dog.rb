@@ -12,6 +12,10 @@ class Dog
   end
 
   def self.all
-  puts  @@all
+    puts  @@all
+  end
+
+  def self.new
+    @@all << self.name
   end
 end
