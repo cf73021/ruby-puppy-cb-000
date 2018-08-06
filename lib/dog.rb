@@ -15,7 +15,4 @@ class Dog
     puts  @@all
   end
 
-  def self.new
-    
-  end
 end
